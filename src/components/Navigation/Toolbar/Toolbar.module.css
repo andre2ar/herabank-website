@@ -1,4 +1,8 @@
 .Toolbar {
-    height: 14vh;
+    height: 9rem;
     background-color: #274193;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem;
 }
