@@ -1,0 +1,15 @@
+.Layout {
+    min-height: 100vh;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Layout main {
+    flex-grow: 1;
+}
+
+/*header, main, footer {
+    flex-shrink: 0;
+}*/
