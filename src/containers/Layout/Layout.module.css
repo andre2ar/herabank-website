@@ -8,6 +8,14 @@
 
 .Layout main {
     flex-grow: 1;
+    display: flex;
+}
+
+.Layout main * {
+    flex-grow: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /*header, main, footer {

@@ -1,7 +1,13 @@
 import React from 'react';
 
+import classes from './Home.module.css';
+
+import home from '../../assets/images/home.jpg';
+
 const Home = props => (
-    <h1>Home</h1>
+    <div className={classes.Home} style={{backgroundImage: `url(${home})`}}>
+
+    </div>
 );
 
 export default Home;
