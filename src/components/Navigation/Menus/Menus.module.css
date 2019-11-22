@@ -1,7 +1,14 @@
 .Menus {
     font-size: 1.6rem;
     list-style-type: none;
+}
+
+.MenuTop {
     margin-top: 5.3rem;
+}
+
+.MenuFooter {
+    margin-bottom: 4.3rem;
 }
 
 .Menus li {

@@ -7,10 +7,13 @@ import Menu from "./Menu/Menu";
 
 const Menus = props => {
     let importedMenus = null;
+    let classesNames = [classes.Menus];
     if (!props.position || props.position === 'top') {
         importedMenus = topMenus;
+        classesNames.push(classes.MenuTop);
     } else if (props.position === 'footer') {
         importedMenus = footerMenus;
+        classesNames.push(classes.MenuFooter);
     }
 
     const menus = [];
@@ -23,7 +26,7 @@ const Menus = props => {
     }
 
     return (
-        <ul className={classes.Menus}>
+        <ul className={classesNames.join(' ')}>
             {menus}
         </ul>
     );
