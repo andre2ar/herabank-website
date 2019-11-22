@@ -5,8 +5,10 @@
 }
 
 .Logo img {
-    /*width: 6rem;*/
+    /*width: 7rem;*/
     margin: 0 .8rem;
+    border: 3px solid white;
+    border-radius: 100px;
 }
 
 .Logo .brand {

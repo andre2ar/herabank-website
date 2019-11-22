@@ -1,0 +1,18 @@
+.Menu {
+    color: white;
+}
+
+.Menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.Menu a:hover,
+.Menu a:active,
+.Menu a.active {
+    color: #29385F;
+    font-weight: bold;
+    background-color: #FFBA43;
+}

@@ -1,0 +1,9 @@
+.Menus {
+    font-size: 1.6rem;
+    list-style-type: none;
+    margin-top: 5.3rem;
+}
+
+.Menus li {
+    display: inline;
+}
