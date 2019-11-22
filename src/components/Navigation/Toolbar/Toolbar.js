@@ -6,7 +6,7 @@ import Menus from "../Menus/Menus";
 const Toolbar = () => (
     <header className={classes.Toolbar}>
         <nav>
-            <Menus />
+            <Menus position="top" />
         </nav>
 
         <Logo/>
