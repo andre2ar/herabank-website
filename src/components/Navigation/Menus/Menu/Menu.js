@@ -4,7 +4,7 @@ import classes from './Menu.module.css';
 
 const Menu = (props) => (
     <li className={classes.Menu}>
-        <NavLink exact activeClassName={classes.active} to={props.link}>
+        <NavLink exact={props.link !== '/service'} activeClassName={classes.active} to={props.link}>
             {props.children}
         </NavLink>
     </li>

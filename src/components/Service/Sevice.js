@@ -1,7 +1,14 @@
 import React from 'react';
 
-const Service = props => (
-    <h1>Serviços</h1>
-);
+
+
+const Service = props => {
+    console.log(props);
+    return (
+        <div>
+
+        </div>
+    );
+};
 
 export default Service;

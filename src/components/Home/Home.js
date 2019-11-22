@@ -4,10 +4,12 @@ import classes from './Home.module.css';
 
 import home from '../../assets/images/home.jpg';
 
-const Home = props => (
-    <div className={classes.Home} style={{backgroundImage: `url(${home})`}}>
+const Home = props => {
+    return (
+        <div className={classes.Home} style={{backgroundImage: `url(${home})`}}>
 
-    </div>
-);
+        </div>
+    );
+};
 
 export default Home;
