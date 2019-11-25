@@ -1,7 +1,10 @@
 import React from 'react';
+import background from "../../assets/images/12-use-terms.jpg";
 
 const TermsOfUse = () => (
-    <div></div>
+    <div style={{backgroundImage: `url(${background})`}}>
+
+    </div>
 );
 
 export default TermsOfUse;
