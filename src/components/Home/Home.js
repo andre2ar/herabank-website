@@ -4,16 +4,15 @@ import classes from './Home.module.css';
 
 import background from '../../assets/images/01-home.jpg';
 import ButtonLink from '../ButtonLink/ButtonLink';
+import Background from "../UI/Background";
 
 const Home = props => {
     return (
-        <div className={classes.Home} style={{backgroundImage: `url(${background})`}}>
+        <div className={classes.Home} style={Background(background)}>
             <ButtonLink link="https://internetbanking.herabank.com/login" target="_blank">
                 Acesse sua Conta
             </ButtonLink>
-            {/*<a href="https://internetbanking.herabank.com/login" rel="noopener noreferrer" target="_blank">
 
-            </a>*/}
             <p>
                 ou <strong>
                 <a rel="noopener noreferrer"

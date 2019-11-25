@@ -17,8 +17,8 @@
     background-position-x: center;
     background-position-y: center;
     background-repeat: no-repeat;
+    background-image: linear-gradient(
+            0deg,
+            rgba(0, 123, 196, 0.5),
+            rgba(0, 123, 196, 0.5));
 }
-
-/*header, main, footer {
-    flex-shrink: 0;
-}*/
