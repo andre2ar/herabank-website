@@ -4,7 +4,7 @@ import classes from './Home.module.css';
 
 import background from '../../assets/images/01-home.jpg';
 import ButtonLink from '../ButtonLink/ButtonLink';
-import Background from "../UI/Background";
+import Background from "../UI/background/background";
 
 const Home = props => {
     return (

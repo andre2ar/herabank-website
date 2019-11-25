@@ -1,5 +1,5 @@
 import React from 'react';
-import Background from "../UI/Background";
+import Background from "../UI/background/background";
 
 const Service = props => {
     let service = 'digital-account';

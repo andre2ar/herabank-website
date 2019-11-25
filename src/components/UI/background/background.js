@@ -1,4 +1,4 @@
-const Background = backgroundImage => {
+const background = backgroundImage => {
     return  {
         backgroundImage: `linear-gradient(
             0deg,
@@ -7,4 +7,4 @@ const Background = backgroundImage => {
     }
 };
 
-export default Background;
+export default background;
