@@ -1,4 +1,4 @@
-.ButtonLink {
+.Title {
     color: #29385F;
     background-color: #FFBA43;
     padding: 1.2rem;
@@ -6,16 +6,5 @@
     border: none;
     font-weight: bold;
     margin: 1rem;
-    outline: none;
-    text-decoration: none; /* no underline */
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
-}
-
-.ButtonLink:hover {
-    background-color: #ffc850;
-    cursor: pointer;
-}
-
-.ButtonLink:active {
-    color: #007BC4;
 }

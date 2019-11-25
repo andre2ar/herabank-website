@@ -1,0 +1,12 @@
+.Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Contact p{
+    padding: 1rem;
+    color: white;
+    font-size: 2rem;
+}
