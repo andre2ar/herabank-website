@@ -6,7 +6,7 @@ export const topMenus = {
     services: {
         exibitionName: 'Nossos serviços',
         link: '/service',
-        submenus: {
+        submenu: {
             digitalAccount: {
                 exibitionName: 'Conta digital',
                 link: '/service/digital-account'

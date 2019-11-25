@@ -18,9 +18,24 @@ const Menus = props => {
 
     const menus = [];
     for(let menuKey in importedMenus) {
+        let submenus = [];
+
+        if(importedMenus[menuKey].submenu){
+            for(let submenuKey in importedMenus[menuKey].submenu) {
+                submenus.push(
+                    <Menu key={submenuKey} link={importedMenus[menuKey].submenu[submenuKey].link}>
+                        {importedMenus[menuKey].submenu[submenuKey].exibitionName}
+                    </Menu>
+                )
+            }
+
+            submenus = <ul /*style={{display: 'none'}}*/>{submenus}</ul>
+        }
         menus.push(
             <Menu key={menuKey} link={importedMenus[menuKey].link}>
                 {importedMenus[menuKey].exibitionName}
+
+                {submenus}
             </Menu>
         );
     }
