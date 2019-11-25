@@ -2,7 +2,7 @@ import React from 'react';
 
 import classes from './Logo.module.css';
 
-import heraBankLogo from '../../assets/images/logo.png';
+import heraBankLogo from '../../../assets/images/logo.png';
 
 const Logo = () => (
     <div className={classes.Logo}>

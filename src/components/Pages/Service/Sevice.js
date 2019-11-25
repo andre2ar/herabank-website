@@ -1,5 +1,5 @@
 import React from 'react';
-import Background from "../UI/background/background";
+import Background from "../../UI/background/background";
 
 const Service = props => {
     let service = 'digital-account';
@@ -7,14 +7,12 @@ const Service = props => {
         service = props.match.params.name;
     }
 
-    const images = require.context('../../assets/images/services');
+    const images = require.context('../../../assets/images/services');
 
     let background = images(`./${service}.jpg`);
 
     return (
-        <div style={Background(background)}>
-
-        </div>
+        <div style={Background(background)}></div>
     );
 };
 

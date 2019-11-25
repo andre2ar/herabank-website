@@ -1,13 +1,13 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import Layout from "./containers/Layout/Layout";
+import Layout from "./components/Layout/Layout";
 
-import Home from "./components/Home/Home";
-import Service from "./components/Service/Sevice";
-import Contact from "./components/Contact/Contact";
-import About from "./components/About/About";
-import Faq from "./components/FAQ/Faq";
-import TermsOfUse from "./components/TermsOfUse/TermsOfUse";
+import Home from "./components/Pages/Home/Home";
+import Service from "./components/Pages/Service/Sevice";
+import Contact from "./components/Pages/Contact/Contact";
+import About from "./components/Pages/About/About";
+import Faq from "./components/Pages/FAQ/Faq";
+import TermsOfUse from "./components/Pages/TermsOfUse/TermsOfUse";
 
 const App = () => (
     <Layout>

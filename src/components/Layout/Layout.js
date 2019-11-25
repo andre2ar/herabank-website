@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 
 import classes from './Layout.module.css';
 
-import Toolbar from "../../components/Navigation/Toolbar/Toolbar";
-import Footer from "../../components/Footer/Footer";
+import Toolbar from "./Navigation/Toolbar/Toolbar";
+import Footer from "./Footer/Footer";
 
 class Layout extends Component{
     render() {
