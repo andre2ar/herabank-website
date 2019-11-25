@@ -16,7 +16,7 @@
     position: relative;
 }
 
-.Menus li a ul{
+.Menus li ul{
     position:absolute;
     top: 2.7rem;
     left:0;
@@ -24,12 +24,12 @@
     display:none;
 }
 
-.Menus li:hover a ul, .Menus li.over a ul {
+.Menus li:hover ul {
     display: flex;
     flex-flow: column;
 }
 
-.Menus li:hover a ul li{
+.Menus li:hover ul li{
     padding: 1rem 0;
     width: 25rem;
 }

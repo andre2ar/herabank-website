@@ -29,13 +29,11 @@ const Menus = props => {
                 )
             }
 
-            submenus = <ul /*style={{display: 'none'}}*/>{submenus}</ul>
+            submenus = <ul>{submenus}</ul>
         }
         menus.push(
-            <Menu key={menuKey} link={importedMenus[menuKey].link}>
+            <Menu key={menuKey} link={importedMenus[menuKey].link} submenus={submenus}>
                 {importedMenus[menuKey].exibitionName}
-
-                {submenus}
             </Menu>
         );
     }

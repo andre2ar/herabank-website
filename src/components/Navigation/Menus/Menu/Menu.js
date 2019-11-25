@@ -7,6 +7,8 @@ const Menu = (props) => (
         <NavLink exact={props.link !== '/service'} activeClassName={classes.active} to={props.link}>
             {props.children}
         </NavLink>
+
+        {props.submenus}
     </li>
 );
 

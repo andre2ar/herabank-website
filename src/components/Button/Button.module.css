@@ -1,0 +1,19 @@
+.Button {
+    color: #29385F;
+    background-color: #FFBA43;
+    padding: 1.2rem;
+    font-size: 3rem;
+    border: none;
+    font-weight: bold;
+    margin: 1rem;
+    outline: none;
+}
+
+.Button:hover {
+    background-color: #ffc850;
+    cursor: pointer;
+}
+
+.Button:active {
+    color: #007BC4;
+}

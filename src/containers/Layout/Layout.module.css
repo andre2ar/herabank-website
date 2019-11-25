@@ -11,7 +11,7 @@
     display: flex;
 }
 
-.Layout main * {
+.Layout main > * {
     flex-grow: 1;
     background-size: cover;
     background-position-x: center;
