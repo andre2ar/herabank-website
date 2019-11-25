@@ -1,11 +1,11 @@
-.About {
+.Service {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
 
-.About p{
+.Service p{
     padding: 1rem;
     color: white;
     font-size: 2rem;
