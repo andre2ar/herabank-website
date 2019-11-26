@@ -7,7 +7,7 @@ const servicesList = {
         title: 'Transferências e Pagamentos',
         details: ''
     },
-    "card-machine": {
+    "credit-card-machine": {
         title: 'Maquinha',
         details: ''
     },

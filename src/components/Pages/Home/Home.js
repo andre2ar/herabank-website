@@ -2,7 +2,7 @@ import React from 'react';
 
 import classes from './Home.module.css';
 
-import background from '../../../assets/images/01-home.jpg';
+import background from '../../../assets/images/01-home.png';
 import ButtonLink from '../../UI/ButtonLink/ButtonLink';
 import Background from "../../UI/background/background";
 
