@@ -14,7 +14,7 @@ const TermsOfUse = () => (
                 HERA BANK PAGAMENTOS (denominada “HERA BANK ”), inscrita no CNPJ sob nº CNPJ 13.566.137/0001-50,
                 com sede e domicílio na Av. Deputado Jamel Cecílio  N: 2690 sala 412 Edf. Metropolitan
                 Torre Tokio : Jardim Goiás, na cidade de Goiânia, Goiás, CEP 74810-100,  disponibilizada através do
-                SITE hospedado sob o domínio http://www.herabank.com (denominado “SITE”), e o USUÁRIO, celebram o
+                SITE hospedado sob o domínio <a href={"http://www.herabank.com"} rel="noopener noreferrer" target={"_blank"}>http://www.herabank.com</a> (denominado “SITE”), e o USUÁRIO, celebram o
                 presente TERMO & CONDIÇÕES DE USO E SERVIÇOS (denominado “TC”), que define as condições pelas quais
                 o USUÁRIO poderá acessar e utilizar as funcionalidades do sistema de propriedade da NEXTCOIN . Faz
                 parte integrante e indissociável deste instrumento a POLÍTICA DE PRIVACIDADE.

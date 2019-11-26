@@ -16,7 +16,8 @@ const Home = props => {
             <p>
                 ou <strong>
                 <a rel="noopener noreferrer"
-                   href="https://play.google.com/store/apps/details?id=com.herabank.matera.quickstart&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank">
+                   href="https://play.google.com/store/apps/details?id=com.herabank.matera.quickstart&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+                   target="_blank">
                     Cadastre-se
                 </a>
                 </strong>
