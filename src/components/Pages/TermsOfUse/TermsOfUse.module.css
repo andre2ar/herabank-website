@@ -1,8 +1,9 @@
 .TermsOfUse {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
+    overflow: auto;
+    height: calc(100vh - 8rem - 9rem);
 }
 
 .Contract{
