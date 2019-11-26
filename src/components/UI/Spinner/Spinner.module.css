@@ -1,3 +1,9 @@
+.Spinner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .Loader,
 .Loader:before,
 .Loader:after {
