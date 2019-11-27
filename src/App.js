@@ -43,7 +43,7 @@ const App = () => (
                     <Service {...props} />
                 </Suspense>}/>
 
-            <Route path='/' exact render={() =>
+            <Route path='/' render={() =>
                 <Suspense fallback={<Spinner/>}>
                     <Home />
                 </Suspense>} />

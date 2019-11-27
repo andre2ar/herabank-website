@@ -8,14 +8,19 @@ import classes from './Service.module.css';
 import servicesList from "./servicesList";
 
 const Service = props => {
-    let service = 'digital-account';
+    let service = 'digital-account', background = null;
     if(props.match.params.name) {
         service = props.match.params.name;
     }
 
     const images = require.context('../../../assets/images/services');
 
-    let background = images(`./${service}.jpg`);
+    try {
+        background = images(`./${service}.jpg`);
+    } catch (e) {
+        service = 'digital-account';
+        background = background = images(`./${service}.jpg`);
+    }
 
     return (
         <div className={classes.Service} style={Background(background)}>
