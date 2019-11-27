@@ -4,7 +4,7 @@ import Title from "../../UI/Title/Title";
 
 import classes from './Contact.module.css';
 
-import background from '../../../assets/images/10-contact.jpg';
+import background from '../../../assets/images/contact.png';
 import Background from "../../UI/background/background";
 
 const Contact = () => (

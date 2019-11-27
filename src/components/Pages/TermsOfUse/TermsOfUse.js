@@ -1,5 +1,5 @@
 import React from 'react';
-import background from "../../../assets/images/12-use-terms.jpg";
+import background from "../../../assets/images/use-terms.png";
 import Background from "../../UI/background/background";
 import Title from "../../UI/Title/Title";
 

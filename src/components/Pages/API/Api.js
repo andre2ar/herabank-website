@@ -4,7 +4,7 @@ import classes from './Api.module.css';
 
 import Title from "../../UI/Title/Title";
 
-import background from "../../../assets/images/api.jpeg";
+import background from "../../../assets/images/api.png";
 import Background from "../../UI/background/background";
 import ButtonLink from '../../UI/ButtonLink/ButtonLink';
 

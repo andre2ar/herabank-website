@@ -2,13 +2,13 @@ import React from 'react';
 
 import classes from './Home.module.css';
 
-import background from '../../../assets/images/01-home.png';
+import background from '../../../assets/images/home.png';
 import ButtonLink from '../../UI/ButtonLink/ButtonLink';
 import Background from "../../UI/background/background";
 
 const Home = props => {
     return (
-        <div className={classes.Home} style={Background(background)}>
+        <div className={classes.Home} style={Background(background, true)}>
             <ButtonLink link="https://internetbanking.herabank.com/login" target="_blank">
                 Acesse sua Conta
             </ButtonLink>

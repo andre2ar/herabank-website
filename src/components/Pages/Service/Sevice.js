@@ -16,10 +16,10 @@ const Service = props => {
     const images = require.context('../../../assets/images/services');
 
     try {
-        background = images(`./${service}.jpg`);
+        background = images(`./${service}.png`);
     } catch (e) {
         service = 'digital-account';
-        background = background = images(`./${service}.jpg`);
+        background = background = images(`./${service}.png`);
     }
 
     return (

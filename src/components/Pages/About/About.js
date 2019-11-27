@@ -4,7 +4,7 @@ import classes from './About.module.css';
 
 import Title from "../../UI/Title/Title";
 
-import background from "../../../assets/images/12-use-terms.jpg";
+import background from "../../../assets/images/about.png";
 import Background from "../../UI/background/background";
 
 const About = () => (
