@@ -19,12 +19,12 @@ const Api = () => (
 
         <div className={classes.links}>
             <ButtonLink link={"https://documenter.getpostman.com/view/6317281/SVzubh9R?version=latest"}
-                        target={"_blank"}>
+                        target={"_blank"} white>
                 Conta digital
             </ButtonLink>
 
             <ButtonLink link={"https://documenter.getpostman.com/view/6317281/SVzuc2dD?version=latest"}
-                        target={"_blank"}>
+                        target={"_blank"} white>
                 Maquinha
             </ButtonLink>
         </div>

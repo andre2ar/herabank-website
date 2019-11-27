@@ -11,6 +11,10 @@
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
 }
 
+.White {
+    background-color: white;
+}
+
 .ButtonLink:hover {
     background-color: #ffc850;
     cursor: pointer;
