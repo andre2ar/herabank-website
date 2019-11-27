@@ -9,6 +9,7 @@ const Contact = React.lazy(() => import('./components/Pages/Contact/Contact'));
 const About = React.lazy(() => import('./components/Pages/About/About'));
 const Faq = React.lazy(() => import('./components/Pages/FAQ/Faq'));
 const TermsOfUse = React.lazy(() => import('./components/Pages/TermsOfUse/TermsOfUse'));
+const Api = React.lazy(() => import('./components/Pages/API/Api'));
 
 const App = () => (
     <Layout>
@@ -23,16 +24,6 @@ const App = () => (
                     <About />
                 </Suspense>} />
 
-            <Route path='/faq' exact render={() =>
-                <Suspense fallback={<Spinner/>}>
-                    <Faq />
-                </Suspense>} />
-
-            <Route path='/terms-of-use' exact render={() =>
-                <Suspense fallback={<Spinner/>}>
-                    <TermsOfUse />
-                </Suspense>} />
-
             <Route path='/service/:name' render={(props) =>
                 <Suspense fallback={<Spinner/>}>
                     <Service {...props} />
@@ -42,6 +33,21 @@ const App = () => (
                 <Suspense fallback={<Spinner/>}>
                     <Service {...props} />
                 </Suspense>}/>
+
+            <Route path='/api' exact render={() =>
+                <Suspense fallback={<Spinner/>}>
+                    <Api />
+                </Suspense>} />
+
+            <Route path='/faq' exact render={() =>
+                <Suspense fallback={<Spinner/>}>
+                    <Faq />
+                </Suspense>} />
+
+            <Route path='/terms-of-use' exact render={() =>
+                <Suspense fallback={<Spinner/>}>
+                    <TermsOfUse />
+                </Suspense>} />
 
             <Route path='/' render={() =>
                 <Suspense fallback={<Spinner/>}>

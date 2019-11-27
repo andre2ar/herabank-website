@@ -64,6 +64,10 @@ export const footerMenus = {
         exibitionName: 'FAQ',
         link: '/faq'
     },
+    api: {
+        exibitionName: 'API',
+        link: '/api'
+    },
     termsOfUse: {
         exibitionName: 'Termos de uso',
         link: '/terms-of-use'

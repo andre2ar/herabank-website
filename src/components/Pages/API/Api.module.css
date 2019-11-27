@@ -1,0 +1,17 @@
+.API {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.API p{
+    width: 50%;
+    padding: 1rem;
+    color: white;
+    font-size: 2rem;
+}
+
+.API .links {
+    margin-top: 1.5rem;
+}
