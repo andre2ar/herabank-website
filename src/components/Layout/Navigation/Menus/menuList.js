@@ -16,7 +16,7 @@ export const topMenus = {
                 link: '/service/transfer-payments'
             },
             cardMachine: {
-                exibitionName: 'Maquinha',
+                exibitionName: 'Maquininha',
                 link: '/service/credit-card-machine'
             },
             creditCard: {
