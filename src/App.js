@@ -13,47 +13,18 @@ const Api = React.lazy(() => import('./components/Pages/API/Api'));
 
 const App = () => (
     <Layout>
-        <Switch>
-            <Route path='/contact' exact render={() =>
-                <Suspense fallback={<Spinner/>}>
-                    <Contact />
-                </Suspense>} />
-
-            <Route path='/about' exact render={() =>
-                <Suspense fallback={<Spinner/>}>
-                    <About />
-                </Suspense>} />
-
-            <Route path='/service/:name' render={(props) =>
-                <Suspense fallback={<Spinner/>}>
-                    <Service {...props} />
-                </Suspense>}/>
-
-            <Route path='/service' render={(props) =>
-                <Suspense fallback={<Spinner/>}>
-                    <Service {...props} />
-                </Suspense>}/>
-
-            <Route path='/api' exact render={() =>
-                <Suspense fallback={<Spinner/>}>
-                    <Api />
-                </Suspense>} />
-
-            <Route path='/faq' exact render={() =>
-                <Suspense fallback={<Spinner/>}>
-                    <Faq />
-                </Suspense>} />
-
-            <Route path='/terms-of-use' exact render={() =>
-                <Suspense fallback={<Spinner/>}>
-                    <TermsOfUse />
-                </Suspense>} />
-
-            <Route path='/' render={() =>
-                <Suspense fallback={<Spinner/>}>
-                    <Home />
-                </Suspense>} />
-        </Switch>
+        <Suspense fallback={<Spinner/>}>
+            <Switch>
+                <Route path='/contact' exact render={() => <Contact />} />
+                <Route path='/about' exact render={() => <About />} />
+                <Route path='/service/:name' render={(props) => <Service {...props} />}/>
+                <Route path='/service' render={(props) => <Service {...props} />}/>
+                <Route path='/api' exact render={() => <Api /> } />
+                <Route path='/faq' exact render={() => <Faq /> } />
+                <Route path='/terms-of-use' exact render={() => <TermsOfUse /> } />
+                <Route path='/' render={() => <Home /> } />
+            </Switch>
+        </Suspense>
     </Layout>
 );
 
